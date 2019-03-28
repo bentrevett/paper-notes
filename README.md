@@ -11,3 +11,6 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 - [Playing Atari with Six Neurons (2019) - Cuccu, Togelius, Cudre-Mauroux](https://github.com/bentrevett/paper-notes/blob/master/notes/playing-atari-with-six-neurons.md)
   - RL, atari, neuroevolution, evolutionary-algorithms
+
+- [Maybe Deep Neural Networks are the Best Choice for Modeling Source Code](https://github.com/bentrevett/paper-notes/blob/master/notes/dnns-modeling-source-code.md)
+  - LM, ml4code
