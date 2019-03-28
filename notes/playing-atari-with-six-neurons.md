@@ -1,4 +1,4 @@
-# Playing Atari with Six Neurons (March 2019)
+# Playing Atari with Six Neurons (2019)
 
 Giuseppe Cuccu, Julian Togelius, Philippe Cudre-Mauroux
 
@@ -10,7 +10,7 @@ They propose a method of learning policies and state representations separately 
 
 They test their system on Atari games using neural networks with only 6-18 neurons (depending on the game's controls) and achieve comparable - and occasionally superior - to state-of-the-art techniques.
 
-===
+---
 
 https://www.reddit.com/r/MachineLearning/comments/8p1o8d/r_playing_atari_with_six_neurons/
 https://github.com/giuse/DNE

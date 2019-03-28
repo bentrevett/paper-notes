@@ -1,4 +1,4 @@
-# To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (March 2019)
+# To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (2019)
 
 Matthew Peters, Sebastian Ruder, Noah A. Smith
 
