@@ -32,8 +32,6 @@ They find their model performs better than n-gram and cache models and LMs witho
 
 They test on Java, C and Python, getting similar results for all three.
 
-
-
 ---
 
 https://github.com/mast-group/OpenVocabCodeNLM/
