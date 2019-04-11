@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1094
 
+- [A Brief Survey of Deep Reinforcement Learning](https://github.com/bentrevett/paper-notes/blob/master/notes/a-brief-survey-of-drl.md)
+  - RL, introduction, survey
+
 - [Style-Analyzer: Fixing Code Style Inconsistencies with Interpretable Unsupervised Algorithms (2019) - Markovtsev, Long, Mougard, Slavnov, Bulychev](https://github.com/bentrevett/paper-notes/blob/master/notes/style-analyzer.md)
   - ML, decision-tree, ml4code
 
