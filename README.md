@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1094
 
+- [Reinforcement Learning with Attention that Works (2019) - Manchin, Abbasnejad, va den Hengel](https://github.com/bentrevett/paper-notes/blob/master/notes/rl-with-attention.md)
+  - RL, atari, attention, PPO
+
 - [World Models (2018) - Ha, Schmidhuber](https://github.com/bentrevett/paper-notes/blob/master/notes/world-models.md)
   - RL, VAE, evolutionary-algorithms, world-models
 
