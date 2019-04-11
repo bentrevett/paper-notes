@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1094
 
+- [Style-Analyzer: Fixing Code Style Inconsistencies with Interpretable Unsupervised Algorithms (2019) - Markovtsev, Long, Mougard, Slavnov, Bulychev](https://github.com/bentrevett/paper-notes/blob/master/notes/style-analyzer.md)
+  - ML, decision-tree, ml4code
+
 - [Reinforcement Learning with Attention that Works (2019) - Manchin, Abbasnejad, va den Hengel](https://github.com/bentrevett/paper-notes/blob/master/notes/rl-with-attention.md)
   - RL, atari, attention, PPO
 
