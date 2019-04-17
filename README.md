@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1094
 
+- [Active Neural Localization (2018) - Chaplot, Parisotto, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/active-neural-localization.md)
+  - RL, maze, doom, A3C, localization
+
 - [Gated-Attention Architectures for Task-Oriented Language Grounding (2017) - Chaplot, Sathyendra, Pasumarthi, Rajagopal, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/gated-attention-architectures.md)
   - RL, doom, rl-text, A3C
 
