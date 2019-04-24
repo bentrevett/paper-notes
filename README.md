@@ -4,7 +4,10 @@ Each heading is a date, with dates as displayed in reverse order, i.e. January 2
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
-## 1094
+## 1904
+
+- [Human-level Control Through Deep Reinforcement Learning (2015) - Mnih et al.](https://github.com/bentrevett/paper-notes/blob/master/notes/human-level-control-through-drl.md)
+  - RL, dqn, atari, replay-memory
 
 - [Gated Path Planning Networks (2018) - Lee, Parisotto, Chaplot, Xing, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/gated-path-planning-networks.md)
   - RL, maze, doom, path-planning

@@ -28,4 +28,4 @@ Figures 7, 8, 11 and 12 do a nice job of showing the attention vector values for
 
 ---
 
-https://github.com/devendrachaplot/DeepRL-Grounding
+- https://github.com/devendrachaplot/DeepRL-Grounding

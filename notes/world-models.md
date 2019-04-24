@@ -31,8 +31,8 @@ Appendix has details of all parameters and model architectures used.
 
 ---
 
-http://worldmodels.github.io
-https://www.youtube.com/watch?v=HzA8LRqhujk
-https://www.youtube.com/watch?v=dPsXxLyqpfs
-https://github.com/ctallec/world-models
-https://github.com/AdeelMufti/WorldModels
+- http://worldmodels.github.io
+- https://www.youtube.com/watch?v=HzA8LRqhujk
+- https://www.youtube.com/watch?v=dPsXxLyqpfs
+- https://github.com/ctallec/world-models
+- https://github.com/AdeelMufti/WorldModels

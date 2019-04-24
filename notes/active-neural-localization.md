@@ -26,4 +26,4 @@ Figure 4 is a great visualization of how the agent localizes itself. There is so
 
 ---
 
-https://github.com/devendrachaplot/Neural-Localization
+- https://github.com/devendrachaplot/Neural-Localization

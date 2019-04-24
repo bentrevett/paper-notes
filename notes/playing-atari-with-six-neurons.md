@@ -12,6 +12,6 @@ They test their system on Atari games using neural networks with only 6-18 neuro
 
 ---
 
-https://www.reddit.com/r/MachineLearning/comments/8p1o8d/r_playing_atari_with_six_neurons/
-https://github.com/giuse/DNE
-https://news.ycombinator.com/item?id=17250315
+- https://www.reddit.com/r/MachineLearning/comments/8p1o8d/r_playing_atari_with_six_neurons/
+- https://github.com/giuse/DNE
+- https://news.ycombinator.com/item?id=17250315
