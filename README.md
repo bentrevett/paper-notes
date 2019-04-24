@@ -7,6 +7,7 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 ## 1094
 
 - [Gated Path Planning Networks (2018) - Lee, Parisotto, Chaplot, Xing, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/gated-path-planning-networks.md)
+  - RL, maze, doom, path-planning
 
 - [Active Neural Localization (2018) - Chaplot, Parisotto, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/active-neural-localization.md)
   - RL, maze, doom, A3C, localization
