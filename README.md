@@ -6,6 +6,8 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1094
 
+- [Gated Path Planning Networks (2018) - Lee, Parisotto, Chaplot, Xing, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/gated-path-planning-networks.md)
+
 - [Active Neural Localization (2018) - Chaplot, Parisotto, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/active-neural-localization.md)
   - RL, maze, doom, A3C, localization
 
@@ -26,11 +28,11 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1903
 
-- [To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (2019) - Peters, Ruder and Smith](https://github.com/bentrevett/paper-notes/blob/master/notes/to-tune-or-not-to-tune.md)
+- [To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (2019) - Peters, Ruder, Smith](https://github.com/bentrevett/paper-notes/blob/master/notes/to-tune-or-not-to-tune.md)
   - NLP, NLI, STS, fine-tuning, transfer-learning, ELMo, BERT
 
 - [Playing Atari with Six Neurons (2019) - Cuccu, Togelius, Cudre-Mauroux](https://github.com/bentrevett/paper-notes/blob/master/notes/playing-atari-with-six-neurons.md)
   - RL, atari, neuroevolution, evolutionary-algorithms
 
-- [Maybe Deep Neural Networks are the Best Choice for Modeling Source Code](https://github.com/bentrevett/paper-notes/blob/master/notes/dnns-modeling-source-code.md)
+- [Maybe Deep Neural Networks are the Best Choice for Modeling Source Code (2019) - Karamptatsis, Sutton](https://github.com/bentrevett/paper-notes/blob/master/notes/dnns-modeling-source-code.md)
   - LM, ml4code
