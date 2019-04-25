@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1904
 
+- [Prioritized Experience Replay (2016) - Schal, Quan, Antonoglou, Silver](https://github.com/bentrevett/paper-notes/blob/master/notes/prioritized-experience-replay.md)
+  - RL, dqn, atari, replay-memory
+
 - [Human-level Control Through Deep Reinforcement Learning (2015) - Mnih et al.](https://github.com/bentrevett/paper-notes/blob/master/notes/human-level-control-through-drl.md)
   - RL, dqn, atari, replay-memory
 
