@@ -4,6 +4,11 @@ Each heading is a date, with dates as displayed in reverse order, i.e. January 2
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
+## 1905
+
+- [Trust Region Policy Optimization (2015) - Schulman, Levine, Moritz, Jordan, Abbeel](https://github.com/bentrevett/paper-notes/blob/master/notes/prioritized-experience-replay.md)
+  - RL, atari, trpo, policy-gradient, optimization
+
 ## 1904
 
 - [Prioritized Experience Replay (2016) - Schal, Quan, Antonoglou, Silver](https://github.com/bentrevett/paper-notes/blob/master/notes/prioritized-experience-replay.md)
