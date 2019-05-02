@@ -6,7 +6,10 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1905
 
-- [Trust Region Policy Optimization (2015) - Schulman, Levine, Moritz, Jordan, Abbeel](https://github.com/bentrevett/paper-notes/blob/master/notes/prioritized-experience-replay.md)
+- [Value Iteration Networks (2016) - Tamar, Wu, Thomas, Levine, Abbeel](https://github.com/bentrevett/paper-notes/blob/master/notes/value-iteration-networks.md)
+  - RL, trpo, planning, maze
+
+- [Trust Region Policy Optimization (2015) - Schulman, Levine, Moritz, Jordan, Abbeel](https://github.com/bentrevett/paper-notes/blob/master/notes/trust-region-policy-optimization.md)
   - RL, atari, trpo, policy-gradient, optimization
 
 ## 1904
@@ -18,7 +21,7 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
   - RL, dqn, atari, replay-memory
 
 - [Gated Path Planning Networks (2018) - Lee, Parisotto, Chaplot, Xing, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/gated-path-planning-networks.md)
-  - RL, maze, doom, path-planning
+  - RL, maze, doom, planning
 
 - [Active Neural Localization (2018) - Chaplot, Parisotto, Salakhutdinov](https://github.com/bentrevett/paper-notes/blob/master/notes/active-neural-localization.md)
   - RL, maze, doom, A3C, localization
