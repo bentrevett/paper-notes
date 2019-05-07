@@ -23,3 +23,8 @@ They use 4x smaller hidden dimension for GPPN as it uses 4 gates instead of 1 in
 First they test on 2D mazes, all 15x15 unless noted. They find that VIN performance starts to degrade after F > 5, whereas GPPN seems to monotonically rise. They also find that, for the same F, GPPN performs better for all values of K, implying that it is superior at propagating information. They also find that VIN does comparable to GPPN on Differential Drive (with F < 9), but not for NEWS/Moore. GPPN trained on 10k mazes performs better than VIN with 100k mazes, showing it is much more sample efficient. They also show GPPN has much lower variance/standard deviation than VPPN over different random seeds and different hyperparameter settings. Looking at the learning curves, VINs performance wildly oscillates between epochs at higher values of F, whereas GPPN is pretty stable throughout. They measure how many epochs it takes to reach a certain optimal path percentage and find that depending on the desired percentage, VIN is 2-5x slower than GPPN. They also do a brief test on 28x28 mazes, showing that GPPN still performs better than VIN.
 
 With the 3D mazes, as well as planning the path the networks also have a loss for predicting the map design (remember the input is the raw pixels). They get a new metric, accuracy of predicting the map design. They find that VIN is more prone to overfitting for all maze navigation types as accuracy is low. GPPN overfits on Differential Drive.
+
+---
+
+- https://github.com/lileee/gated-path-planning-networks
+- https://www.youtube.com/watch?v=Pnnpl-Dr5lk
