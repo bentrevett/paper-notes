@@ -1,0 +1,33 @@
+# Reinforcement Learning, Fast and Slow (2019)
+
+Matthew Botvinick, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell, Demis Hassabis
+
+---
+
+Initially, deep reinforcement learning (DRL) was very sample inefficient (i.e. needs a lot of examples) - probably too slow to be a model of humans and animals learning, which is what reinforcement learning is proposed to be based on. Recently, there have been techniques improving the speed in which DRL algorithms learn. A common trait between two of these techniques that increase sample efficiency are the "connection between fast RL and slower, more incremental forms of learning".
+
+This paper argues that these techniques are interesting for areas of psychology and neuroscience as recent developments in artificial intelligence (AI) might provided new hypotheses concerning human cognition and brain function. RL is useful for these researchers as it is related closely to the neural mechanisms for reward-based learning centering on dopamine and that DRL uses neural networks to learn powerful representations that support generalization and transfer, both of which are key abilities in biological brains.
+
+So why were initial DRL algorithms so sample inefficient? There are two main reasons:
+
+1. incremental parameter adjustment - DRL algorithms use gradient descent to learn the parameters of a deep neural network which maps perceptual inputs to actions. The adjustments (updates) of these parameters must be small to maximize generalization and avoid overwriting the effects of earlier learning (often refered to as catastrophic forgetting or catastrophic inference).
+
+1. weak inductive bias - All learning algorithms have a bias-variance trade-off. The strong the initial assumptions the algorithm makes about the patterns to be learned (i.e. the more inductive bias) the less data required for learning to be accomplished (assuming your inductive biases are correct). A learning algorithm with a weak inductive bias can learn more patterns (larger variance) but will be less sample efficient. A strong inductive bias is what allows for fast learning, as this inductive bias reduces the size of the hypothesis search space. Generic neural networks are low-bias learning systems as they use their large amount of parameters to fit a wide range of data, thus they are very sample inefficient.
+
+The first technique is to use *episodic memory*. This is where we store past events and use this information to make new decisions. The episodic memory is made up of the activation values neural network, i.e. values of some intermediate layer, at that state, along with the disounted sum of rewards achived so far. When deciding which action to take, we refer back to our memory and calculate the value of our state as the discounted sum from the episodic memory multiplied by the similarity (between 0 and 1) between the activation values from our current input state and the activation values stored in the episodic memory.
+
+As episodic memory speeds up learning it learns faster, however this fast learning still depends on the slow incremental parameter updates. The incremental parameter updates allow the system for form useful internal representations, which help when looking for similar states within the episodic memory. Thus fast learning is enabled by slow learning.
+
+The second technique is *meta-RL*. The bias-variance trade-off means to learn faster we need to narrow the hypothesis space by using some inductive biases, but only if the narrower hypothesis space contains the correct hypothesis. How can the learning algorithm know what inductive biases to adopt? We can do this via past experience, humans do this all the time - the example they use is learning to use a new smart-phone which uses experience from other smart-phones we have used.
+
+Using past experience to accelerate new learning is called meta-learning (how is this different to transfer learning?). One approach to meta learning used a recurrent neural network (RNN) on a series of related RL tasks. The weights in the RNN are adjusted slowly so they can absorb what is common across tasks but cannot change fast enough to support the solution of any single task. This apparently causes the dynamics of the RNN to implement their own RL algorithm which is able to quickly solve each new task based on knowledge from past tasks. This RL algorithm was created by another RL algorithm, hence the term meta-RL.
+
+As the weights in the network are updated slowly, this is the slow part of the learning. The network dynamics which have been endowed with useful inductive biases (by the slow learning) allow is to quickly learn new tasks. Again, we have fast learning enabled by slow learning.
+
+You could say the use of episodic memory is an inductive bias in itself, it assumes similar states will require similar actions. This is an architectual or algorithmic bias, instead of a learned bias, which meta-RL is. Another example of architectual bias is the use of convolutional neural networks, which assume there is a degree of translation invariance in the data.
+
+Episodic memory and meta-RL can be used together. When the agent encounters a situation that appears similar to one encountered in the past, it reinstates the hidden activations from the previous encounter, allowing previously learned information to immediately influence the current policy. The episodic memory is allowing the ststem to recognize previously encountered tasks, retrieving stored solutions. On the first encounter with a new task, the system benefits from the fast learning provided by the meta-RL. From subsequent encounters, it benefits from the one-shot learning ability provided by the episodic memory.
+
+We can relate this back to how learning occurs in humans and other animals, where cognition operates over stored information about specific previous observations. The link to meta-RL is via the way slow, dopamine-driven synaptic change serves to tune the activity dynamics in such a way they come to implement an independent set of learning procedures.
+
+AI work has a sharp distinction between architectual and learned biases. In a biological context, we can view architectual biases being created via evolution. Evolution is the slow learning process, gradually sculpting architectual biases that allow faster lifetime learning. This also implies evolution does not optimize for a general purpose algorithm, but one that exploits the regularities in the environments in which brains have evolved. Thus, evolution provides the slow learning, whereas lifetime learning provides the fast learning.

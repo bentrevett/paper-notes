@@ -1,4 +1,4 @@
-#Trust Region Policy Optimization (2015)
+# Trust Region Policy Optimization (2015)
 
 John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel
 
@@ -14,7 +14,7 @@ You can classify policy optimization into three main groups:
 
 The gradient free methods consistently beat gradient based methods (however gradient free methods scale poorly with the number of parameters), which sucks because gradient based methods have better sample efficiency. Gradient 
 
-The TRPO algorithm is a policy gradient optimization algorithm that optimizes a surrogate objective and guarantees policy improvement, i.e. the policy can only get better, never worse. 
+The TRPO algorithm is a policy gradient optimization algorithm that optimizes a surrogate objective and guarantees policy improvement, i.e. the policy can only get better, never worse.
 
 First, they describe the Markov decision process (MDP) which is a tuple of (S, A, P, r, p, y) - that is: states, actions, transition (aka dynamics) function, reward function, distribution over initial states and discount factor. They represent the expected return (expected discounted reward) by n(pi). They also have the state (V) and state-action (Q) value functions, as well as the advantage function, A. Q is expected return when taking action a in state s and then following the policy thereafter. V is expected return when being in state s and following the policy thereafter. A = Q(s,a) - V(s). 
 
@@ -24,7 +24,7 @@ One issue with this is that finding the state visitation counts for every single
 
 Now they've found how we can always improve our policy, but we want to be able to reach an optimal policy in a reasonable amount of time. Too small of a step when improving our policy means it will take forever to train a satisfactory agent. Also, too large of a step might cause the policy to be too different from our old one, causing L =/= n, and thus the theory doesn't hold. One way to ensure decently sized steps is to calculate a lower bound on the policy improvement, i.e. the smallest amount it can change while keeping to the theory(?). Earlier work used a penalty on expectations, however TRPO uses a constaint on the KL divergence (a distance metric between two distributions). That is, the new policy must be within a certain KL divergence value of the old policy. The KL divergence metric they used is expected KL divergence over the distribution of actions for all states.
 
-The full TRPO equation is given in equation 14. 
+The full TRPO equation is given in equation 14.
 
 ---
 
