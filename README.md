@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1905
 
+- [The Consciousness Prior (2017) - Bengio](https://github.com/bentrevett/paper-notes/blob/master/notes/the-consciousness-prior.md)
+  - thought, rl, vae, gan, unsupervised
+
 - [Reinforcement Learning, Fast and Slow (2019) - Botvinick, Ritter, Wang, Kurth-Nelson, Blundell, Hassabis](https://github.com/bentrevett/paper-notes/blob/master/notes/rl-fast-and-slow.md)
   - rl, replay-memory, biological
 
