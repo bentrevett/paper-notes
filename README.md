@@ -6,7 +6,7 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1905
 
-- [Reinforcement Learning, Fast and Slow (2019) - Botvinick, Ritter, Wang, Kurth-Nelson,Blundell, Hassabis](https://github.com/bentrevett/paper-notes/blob/master/notes/rl-fast-and-slow.md)
+- [Reinforcement Learning, Fast and Slow (2019) - Botvinick, Ritter, Wang, Kurth-Nelson, Blundell, Hassabis](https://github.com/bentrevett/paper-notes/blob/master/notes/rl-fast-and-slow.md)
   - rl, replay-memory, biological
 
 - [Value Iteration Networks (2016) - Tamar, Wu, Thomas, Levine, Abbeel](https://github.com/bentrevett/paper-notes/blob/master/notes/value-iteration-networks.md)
