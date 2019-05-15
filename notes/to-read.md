@@ -36,3 +36,15 @@ Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Hongla
 - https://github.com/Kaixhin/PlaNet
 
 ---
+
+## CompILE: Compositional Imitation Learning and Execution (2019)
+
+Thomas Kipf, Yujia Li, Hanjun Dai, Vinicius Zambaldi, Alvaro Sanchez-Gonzalez, Edward Grefenstette, Pushmeet Kohli, Peter Battaglia
+
+---
+
+- https://github.com/tkipf/compile
+
+---
+
+---
