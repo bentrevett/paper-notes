@@ -47,4 +47,13 @@ Thomas Kipf, Yujia Li, Hanjun Dai, Vinicius Zambaldi, Alvaro Sanchez-Gonzalez, E
 
 ---
 
+## Self-Imitation Learning (2019)
+
+Junhyuk Oh, Yijie Guo, Satinder Singh, Honglak Lee
+
+---
+
+- https://github.com/junhyukoh/self-imitation-learning
+- https://github.com/TianhongDai/self-imitation-learning-pytorch
+
 ---
