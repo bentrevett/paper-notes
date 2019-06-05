@@ -1,6 +1,6 @@
 # Paper Notes
 
-Each heading is a date, with dates as displayed in reverse order, i.e. January 2020 would be: 2001.
+Each heading is a date, displayed in YYMM format.
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
