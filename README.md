@@ -4,6 +4,11 @@ Each heading is a date, displayed in YYMM format.
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
+## 1911
+
+- [Deep Contextualized Word Representations (2019) - Peters, Neumann, Iyyer, Gardner, Clark, Lee, Zettlemoyer](https://github.com/bentrevett/paper-notes/blob/master/notes/towards-interpretable-rl-agents.md)
+- lm, emlo, nlp, fine-tuning, transfer-learning, embeddings
+
 ## 1905
 
 - [Towards Interpretable Reinforcement Learning Using Attention Augmented Agents (2019) - Mott, Zoran, Chrzanowski, Wierstra, Rezende](https://github.com/bentrevett/paper-notes/blob/master/notes/towards-interpretable-rl-agents.md)
@@ -59,4 +64,4 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
   - rl, atari, neuroevolution, evolutionary-algorithms
 
 - [Maybe Deep Neural Networks are the Best Choice for Modeling Source Code (2019) - Karamptatsis, Sutton](https://github.com/bentrevett/paper-notes/blob/master/notes/dnns-modeling-source-code.md)
-  - LM, ml4code
+  - lm, ml4code
