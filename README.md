@@ -6,7 +6,10 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1911
 
-- [Deep Contextualized Word Representations (2019) - Peters, Neumann, Iyyer, Gardner, Clark, Lee, Zettlemoyer](https://github.com/bentrevett/paper-notes/blob/master/notes/towards-interpretable-rl-agents.md)
+- [The Measure of Intelligence (2019) - Chollet](https://github.com/bentrevett/paper-notes/blob/master/notes/measure-of-intelligence.md)
+- rl, agi
+
+- [Deep Contextualized Word Representations (2019) - Peters, Neumann, Iyyer, Gardner, Clark, Lee, Zettlemoyer](https://github.com/bentrevett/paper-notes/blob/master/notes/deep-contextualized-word-representations.md)
 - lm, emlo, nlp, fine-tuning, transfer-learning, embeddings
 
 ## 1905
