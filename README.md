@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1911
 
+- [Universal Language Model Fine-tuning for Text Classification (2019) - Howard, Ruder](notes/universal-language-model-fine-tuning.md)
+  - nlp, fine-tuning, lm, transfer-learning, embeddings 
+
 - [The Measure of Intelligence (2019) - Chollet](https://github.com/bentrevett/paper-notes/blob/master/notes/measure-of-intelligence.md)
   - rl, agi
 
