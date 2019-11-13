@@ -8,11 +8,11 @@ Trust region policy optimization (TRPO) is a procedure for optimizing policies i
 
 You can classify policy optimization into three main groups:
 
-1. policy iteration methods - alternate between estimating a value function under the current polic and then improving the policy
+1. policy iteration methods - alternate between estimating a value function under the current policy and then improving the policy
 1. policy gradient methods - use the gradient from the expected return over sample trajectories
 1. derivative-free optimization methods - treat the return as a black box function which is to be optimized via the policy parameters
 
-The gradient free methods consistently beat gradient based methods (however gradient free methods scale poorly with the number of parameters), which sucks because gradient based methods have better sample efficiency. Gradient 
+The gradient free methods consistently beat gradient based methods (however gradient free methods scale poorly with the number of parameters), which sucks because gradient based methods have better sample efficiency. 
 
 The TRPO algorithm is a policy gradient optimization algorithm that optimizes a surrogate objective and guarantees policy improvement, i.e. the policy can only get better, never worse.
 
