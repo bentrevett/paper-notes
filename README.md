@@ -6,6 +6,9 @@ Each bulletpoint is a paper, with a link to the summary written in markdown. Eac
 
 ## 1911
 
+- [Contextual Word Representations: A Contextual Introduction (2019) - Smith](notes/contextual-word-representations.md)
+  - nlp, embeddings, fine-tuning, transfer-learning
+
 - [Attention is All You Need (2017) - Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin](notes/attention-is-all-you-need.md)
   - transformer, nlp, nmt, translation, attention
 
