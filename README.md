@@ -4,6 +4,11 @@ Each heading is a date, displayed in YYMM format.
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
+## 1912
+
+- [Training Agents using Upside-Down Reinforcement Learning (2019) - Srivastava, Shyam, Mutz, Jaśkowski, Schmidhuber](notes/training-agents-using-udrl.md)
+  - rl, udrl, doom, a2c, dqn
+
 ## 1911
 
 - [Contextual Word Representations: A Contextual Introduction (2019) - Smith](notes/contextual-word-representations.md)
