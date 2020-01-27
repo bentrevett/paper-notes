@@ -1,4 +1,4 @@
-# Training Agents using Upside-Down Reinforcement Learning
+# Training Agents using Upside-Down Reinforcement Learning (2019)
 
 Rupesh Kumar Srivastava, Pranav Shyam, Filipe Mutz, Wojciech Jaśkowski, Jürgen Schmidhuber
 
