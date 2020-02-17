@@ -4,6 +4,8 @@ Kawin Ethayarajh
 
 ---
 
+https://kawine.github.io/blog/nlp/2020/02/03/contextual.html
+
 Replacing static word embeddings - representations that are identical for every occurence of a word, no matter the context it appears in - with contextualized word embeddings - representations which depend on the context the word appears in - has yielded significant improvements on many NLP tasks. However, just how contextual are contextualized representations? Is there a unique contextual representations for every word in each unique context, or are representations limited to a finite number of contexts? 
 
 They find that words are, usually, more contextualized at higher layers, similar to how LSTMs produce task specific representations at higher layers.
