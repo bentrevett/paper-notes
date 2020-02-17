@@ -4,6 +4,10 @@ Each heading is a date, displayed in YYMM format.
 
 Each bulletpoint is a paper, with a link to the summary written in markdown. Each bulletpoint has an indented point with some "tags" for easy searching with ctrl+f. All tags use hyphens instead of spaces. Order of tags is irrelevant.
 
+## 2002
+- [How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings (2019) - Ethayarajh](notes/how-contextual.md)
+  - embeddings, bert, elmo, gpt-2
+
 ## 2001
 
 - [Discounted Reinforcement Learning is Not an Optimization Problem (2019) - Naik, Shariff, Yasui, Sutton](notes/discounted-rl-not-optimization-problem.md)
